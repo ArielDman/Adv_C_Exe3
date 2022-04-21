@@ -19,6 +19,10 @@ typedef struct Stack
 	charNode* head;
 }Stack;
 
+charNode* addToHead(charNode* head, charNode* toAdd);
+void removeItem(charNode** head);
+int checkIsEqual(Stack* s1, Stack* s2);
+Stack* reverseStack(Stack* s1);
 /// <summary>
 /// Initializes a stack structure.
 /// 
@@ -84,6 +88,7 @@ int isEmptyStack(const Stack* s);
 /// <param name="sentence"></param>
 void flipBetweenHashes(const char* sentence);
 
+void print(charNode* head);
 /// <summary>
 /// 
 /// </summary>

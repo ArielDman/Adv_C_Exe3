@@ -27,6 +27,15 @@ typedef struct Queue
 	intNode* tail;
 }Queue;
 
+
+void printQ(Queue* q);
+
+//function that rearranges the order in a Q in a reversed way
+void reverse(Queue* queue);
+
+/* function to swap data of two nodes a and b*/
+void swap(intNode* a, intNode* b);
+
 /// <summary>
 /// Initializes a Queue ADT structure.
 /// 
